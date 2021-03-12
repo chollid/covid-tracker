@@ -1,0 +1,35 @@
+.table {
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    overflow: scroll;
+    height: 40vh;
+    color: #3f3a3a;
+
+}
+
+.table::-webkit-scrollbar {
+    display: none;
+  }
+.table {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: .5rem;
+}
+
+.table tr:nth-of-type(odd) {
+    background-color: #46569e;
+    color: white;
+    box-shadow: -2px 3px 3px 0px rgba(0,0,0,0.41);
+}
+.table tr:nth-of-type(even) {
+   font-weight: 600;
+   
+}
