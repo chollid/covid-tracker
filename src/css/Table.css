@@ -1,35 +1,44 @@
-.table {
-    margin: 20px 0 0 0;
-    border-radius: 10px;
-    overflow: scroll;
-    height: 40vh;
-    color: #3f3a3a;
 
-}
+
+/***************************************/
+
+
+
+
+
+.table {
+    margin-top: 3rem;
+    border-radius: 8px;
+    overflow: scroll;
+    color: #6a5d5d;
+    background-color: white;
+    height: 400px;
+  }
 
 .table::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
 .table {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
   }
 
+
 .table tr {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .table td {
-    padding: .5rem;
+  padding: 0.5rem;
+  border: none;
 }
-
+  
 .table tr:nth-of-type(odd) {
-    background-color: #46569e;
-    color: white;
-    box-shadow: -2px 3px 3px 0px rgba(0,0,0,0.41);
+  background-color: #464ca3;
+  color: white;
+  box-shadow: -2px 3px 3px 0px rgba(0,0,0,0.41);
 }
 .table tr:nth-of-type(even) {
    font-weight: 600;
-   
 }
